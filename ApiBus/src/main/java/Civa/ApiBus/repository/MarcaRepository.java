@@ -1,0 +1,7 @@
+package Civa.ApiBus.repository;
+
+import Civa.ApiBus.entity.Marca;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface MarcaRepository extends JpaRepository<Marca, Long>{
+}
